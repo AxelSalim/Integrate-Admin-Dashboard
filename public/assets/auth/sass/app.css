@@ -56,14 +56,15 @@ a {
   border-right: 1px solid var(--bs-border-color);
 }
 .sidebar-wrapper .sidebar-header .logo-icon {
-  width: 30px;
+  width: 50px;
 }
 .sidebar-wrapper .sidebar-header .logo-text {
-  font-size: 22px;
+  font-size: 18px;
   margin-left: 10px;
   margin-bottom: 0;
   letter-spacing: 1px;
-  color: #008cff;
+  color: #a62acf;
+  font-weight: bold;
 }
 .sidebar-wrapper .sidebar-header .mobile-toggle-icon {
   color: #008cff;

@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="en" data-bs-theme="light">
 
-
-<!-- Mirrored from codervent.com/syndron/demo/vertical/auth-basic-signup.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Oct 2024 11:57:06 GMT -->
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
@@ -30,18 +28,17 @@
 	<!--wrapper-->
 	<div class="wrapper">
 		<div class="d-flex align-items-center justify-content-center my-5">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
 					<div class="col mx-auto">
 						<div class="card mb-0">
 							<div class="card-body">
-								<div class="p-4">
+								<div class="p-2">
 									<div class="mb-3 text-center">
-										<img src="{{ asset('assets/auth/images/logo-icon.png') }}" width="60" alt="" />
+										<img src="{{ asset('assets/auth/images/logo-ptits-flocons.png') }}" width="180" alt="" />
 									</div>
 									<div class="text-center mb-4">
-										<h5 class="">Syndron Admin</h5>
-										<p class="mb-0">Please fill the below details to create your account</p>
+										<h5 class="">Créer votre compte</h5>
 									</div>
 									<div class="form-body">
 										<form class="row g-3">
@@ -69,33 +66,17 @@
 												</select>
 											</div>
 											<div class="col-12">
-												<div class="form-check form-switch">
-													<input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked">
-													<label class="form-check-label" for="flexSwitchCheckChecked">I read and agree to Terms & Conditions</label>
-												</div>
-											</div>
-											<div class="col-12">
 												<div class="d-grid">
-													<button type="submit" class="btn btn-primary">Sign up</button>
+													<button type="submit" class="btn btn-primary">S'inscrire</button>
 												</div>
 											</div>
 											<div class="col-12">
 												<div class="text-center ">
-													<p class="mb-0">Already have an account? <a href="auth-basic-signin.html">Sign in here</a></p>
+													<p class="mb-0">Déjà un compte? <a href="{{ route('login') }}">Connectez-vous ici</a></p>
 												</div>
 											</div>
 										</form>
 									</div>
-									<div class="login-separater text-center mb-5"> <span>OR SIGN UP WITH EMAIL</span>
-										<hr/>
-									</div>
-									<div class="list-inline contacts-social text-center">
-										<a href="javascript:;" class="list-inline-item bg-facebook text-white border-0 rounded-3"><i class="bx bxl-facebook"></i></a>
-										<a href="javascript:;" class="list-inline-item bg-twitter text-white border-0 rounded-3"><i class="bx bxl-twitter"></i></a>
-										<a href="javascript:;" class="list-inline-item bg-google text-white border-0 rounded-3"><i class="bx bxl-google"></i></a>
-										<a href="javascript:;" class="list-inline-item bg-linkedin text-white border-0 rounded-3"><i class="bx bxl-linkedin"></i></a>
-									</div>
-
 								</div>
 							</div>
 						</div>

@@ -38,10 +38,10 @@
 		<div class="sidebar-wrapper" data-simplebar="true">
 			<div class="sidebar-header">
 				<div>
-					<img src="{{ asset('assets/auth/images/logo-icon.png') }}" class="logo-icon" alt="logo icon">
+					<img src="{{ asset('assets/auth/images/logo-ptits-flocons.png') }}" class="logo-icon" alt="logo icon">
 				</div>
 				<div>
-					<h4 class="logo-text">Syndron</h4>
+					<h4 class="logo-text">Ptits-Flocons</h4>
 				</div>
 				<div class="mobile-toggle-icon ms-auto"><i class='bx bx-x'></i>
 				</div>
