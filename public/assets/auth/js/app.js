@@ -1,9 +1,9 @@
 $(function () {
 	"use strict";
 
-	new PerfectScrollbar(".app-container"),
-		new PerfectScrollbar(".header-message-list"),
-		new PerfectScrollbar(".header-notifications-list"),
+	// new PerfectScrollbar(".app-container"),
+	// 	new PerfectScrollbar(".header-message-list"),
+	// 	new PerfectScrollbar(".header-notifications-list"),
 
 
 		$(".mobile-toggle-icon").on("click", function () {
@@ -14,7 +14,7 @@ $(function () {
 
 		$(".dark-mode").click(function () {
 			$("html").attr("data-bs-theme", function (i, v) {
-				return v === 'dark' ? 'light' : 'dark';
+                return v === 'dark' ? 'light' : 'dark';
 			})
 		})
 
